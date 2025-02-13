@@ -26,6 +26,9 @@ class _NewItemState extends State<NewItem>{
                           decoration: const InputDecoration(
                             label: Text('Name'),
                           ),
+                          validator: (value){
+
+                          },
                         ),
                     ],
                 ),
