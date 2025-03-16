@@ -59,7 +59,9 @@ class _NewItemState extends State<NewItem>{
                                   ),
                                 ),
                               ], 
-                              onChanged: (value){}
+                              // onChanged: (value){
+                                
+                              // }
                             ),
                           ],
                         ),
