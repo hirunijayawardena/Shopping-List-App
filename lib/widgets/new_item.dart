@@ -70,6 +70,12 @@ class _NewItemState extends State<NewItem>{
                             ),
                           ],
                         ),
+                        Row(
+                          children: [
+                            TextButton(onPressed: onPressed, child: child),
+                            ElevatedButton(onPressed: onPressed, child: child)
+                          ],
+                        ),
                     ],
                 ),
             ),
