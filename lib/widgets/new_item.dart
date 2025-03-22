@@ -72,7 +72,8 @@ class _NewItemState extends State<NewItem>{
                         ),
                         Row(
                           children: [
-                            TextButton(onPressed: onPressed, child: child),
+                            TextButton(onPressed: onPressed,
+                              child: const Text('Reset')),
                             ElevatedButton(onPressed: onPressed, child: child)
                           ],
                         ),
