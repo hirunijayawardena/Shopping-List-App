@@ -78,7 +78,7 @@ class _NewItemState extends State<NewItem>{
                             ),
                             ElevatedButton(
                               onPressed: (){}, 
-                              child: child
+                              child: const Text('Add Item'),
                             ),
                           ],
                         ),
