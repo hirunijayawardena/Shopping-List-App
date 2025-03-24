@@ -71,6 +71,7 @@ class _NewItemState extends State<NewItem>{
                           ],
                         ),
                         Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
                           children: [
                             TextButton(
                               onPressed: (){},
