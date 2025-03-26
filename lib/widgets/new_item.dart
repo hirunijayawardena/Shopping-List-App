@@ -28,8 +28,10 @@ class _NewItemState extends State<NewItem>{
                           decoration: const InputDecoration(
                             label: Text('Name'),
                           ),
+                          // used to validate
                           validator: (value){
-                            return 'Demo...';
+                            if (value == null || value.isEmpty)
+                            return 'Error message';
                           },
                         ),
                         Row(
