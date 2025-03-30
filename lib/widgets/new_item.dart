@@ -30,7 +30,7 @@ class _NewItemState extends State<NewItem>{
                           ),
                           // used to validate
                           validator: (value){
-                            if (value == null || value.isEmpty)
+                            if (value == null || value.isEmpty || value.trim().length <= 1 || value.trim().length > 50)
                             return 'Error message';
                           },
                         ),
